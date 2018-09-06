@@ -1,0 +1,1 @@
+ogf_file_path = 'c:\\'ogf_file_name = 'test_import'ogf_file_ext = 'ogf'image_path = 'T:\\'image_ext = 'dds'

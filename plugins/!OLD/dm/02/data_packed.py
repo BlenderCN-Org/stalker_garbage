@@ -1,0 +1,1 @@
+import structdef parse_string(data, position):    string = ''    char = struct.unpack('b', data[position : position + 1])[0]    position += 1    while char != 0:        string = string + chr(char)        char = struct.unpack('b', data[position : position + 1])[0]        position += 1    return string, position

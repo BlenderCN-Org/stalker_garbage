@@ -1,0 +1,1 @@
+details_file_path = 'c:\\'details_file_name = 'level'details_file_ext = 'details'image_path = 'T:\\'image_ext = 'dds'dump_save = Falsedump_folder = 'c:\\'

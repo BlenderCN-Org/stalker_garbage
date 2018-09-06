@@ -1,0 +1,5 @@
+s = bytes('Рабочий стол', 'cp1251')
+f = open('1.txt', 'wb')
+f.write(s)
+f.close()
+input('ok')

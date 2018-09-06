@@ -1,0 +1,6 @@
+CoP Materials:
+
+0-96: как в CS
+97  materials\occ
+98  materials\fake_ladders_woods
+99  materials\fake_slide

@@ -1,0 +1,24 @@
+HEADER            0x1
+SHADERS           0x2
+VISUALS           0x3
+  ID                0xNN
+    HEADER            0x1
+    SWIDATA           0x6
+    VCONTAINER        0x7
+    ICONTAINER        0x8
+    CHILDREN_L        0xa
+    LODDEF2           0xb
+    TREEDEF2          0xc
+    SWICONTAINER      0x14
+    GCONTAINER        0x15
+    FASTPATH          0x16
+PORTALS           0x4
+LIGHT_DYNAMIC     0x6
+GLOWS             0x7
+SECTORS           0x8
+  ID                0xNN
+    PORTALS           0x1
+    ROOT              0x2
+VB                0x9
+IB                0xa
+SWIS              0xb

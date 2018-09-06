@@ -1,0 +1,1 @@
+def crete_slots(vertices):        use_blender = True    try:        import bpy    except:        use_blender = False    if use_blender:        mesh = bpy.data.meshes.new('Slots_Mesh')        object = bpy.data.objects.new('Slots', mesh)        scene = bpy.context.scene        scene.objects.link(object)        mesh.from_pydata(vertices, (), ())    else:        pass

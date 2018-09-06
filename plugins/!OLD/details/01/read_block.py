@@ -1,0 +1,1 @@
+import structdef read_block(position, data):    block_id = struct.unpack('i', data[position : position + 4])[0]    position += 4        block_size = struct.unpack('i', data[position : position + 4])[0]    position += 4        return position, block_id, block_size
